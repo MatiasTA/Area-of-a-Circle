@@ -1,52 +1,21 @@
-# Prerequisites
-*.d
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            const double pi = 3.14;
+            double radius = Convert.ToDouble(Console.ReadLine());
+            
+            //your code goes here
+            double x = ((radius * radius)*pi);
+            Console.WriteLine(x);
+        }
+    }
+}
